@@ -73,7 +73,7 @@ ul.list li:last-child{margin-bottom:0;}
 .form-field{position:relative;}
 .form-field:after{position:absolute; left:0; bottom:0; width:100%; height:4px; border-radius:5px; content:""; background-color:#D07474;}
 
-.footer{height:50px; background-color:#D07474;}
+.footer{height:300px; background-color:#D07474;}
 
 @media(max-width:1199px){
 	.container{max-width:100%;}
