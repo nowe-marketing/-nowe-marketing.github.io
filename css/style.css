@@ -44,7 +44,7 @@ body.scroll .header{background-color:#D07474; min-height:70px;}
 .nav-icon:before{top:0;}
 .nav-icon:after{bottom:0;}
 .nav-icon span{display:block; height:3px; border-radius:5px; background-color:#fff;}
-.nav-icon.nav-icon-active span{display:none;} 
+.nav-icon.nav-icon-active span{display:none;}
 .nav-icon.nav-icon-active:before{top:7px; transform:rotate(45deg);}
 .nav-icon.nav-icon-active:after{top:7px; transform:rotate(135deg);}
 
@@ -73,7 +73,19 @@ ul.list li:last-child{margin-bottom:0;}
 .form-field{position:relative;}
 .form-field:after{position:absolute; left:0; bottom:0; width:100%; height:4px; border-radius:5px; content:""; background-color:#D07474;}
 
-.footer{height:300px; background-color:#D07474;}
+.footer{min-height:300px; background-color:#D07474; padding: 50px 30px; color: #fff;}
+
+.footer p {
+	line-height: 1.5;
+	color: #fff;
+}
+.footer-link {
+	color: #fff;
+}
+.footer-link:hover {
+	color: #fff;
+	text-decoration: underline;
+}
 
 @media(max-width:1199px){
 	.container{max-width:100%;}
@@ -114,6 +126,10 @@ ul.list li:last-child{margin-bottom:0;}
 	.contact-form .row.rows{margin:-15px;}
 	.contact-form .row.rows .columns{padding:15px;}
 	.contact-form .form-control{height:45px; font-size:20px;}
+
+	.col-footer {
+		margin-top: 20px;
+	}
 }
 @media(max-width:640px){
 	.hero-contents h1{font-size:28px;}
